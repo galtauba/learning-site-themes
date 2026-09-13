@@ -1,0 +1,7 @@
+{
+  "id": "learning-site-dark",
+  "name": "Learning Site Dark",
+  "version": "1.0.0",
+  "tokens": { "--background": "#111827", "--text": "#e5e7eb", "--surface": "#182233", "--accent": "#67c6ff", "--muted": "#aab6c8", "--font": "Inter, Noto Sans Hebrew, Arial, sans-serif", "--border": "#34445d", "--heading": "#f7fbff", "--code": "#0c1422", "--reading-width": "72rem" },
+  "assets": ["assets/brand-mark.svg", "assets/preview.svg"]
+}

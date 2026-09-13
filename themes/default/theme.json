@@ -1,0 +1,18 @@
+{
+  "id": "learning-site-default",
+  "name": "Learning Site Default",
+  "version": "1.0.0",
+  "tokens": {
+    "--background": "#f7f8fa",
+    "--text": "#172033",
+    "--surface": "#ffffff",
+    "--accent": "#0b6bcb",
+    "--muted": "#5d6678",
+    "--font": "Inter, Noto Sans Hebrew, Arial, sans-serif",
+    "--border": "#dce2ea",
+    "--heading": "#102a43",
+    "--code": "#f0f3f7",
+    "--reading-width": "72rem"
+  },
+  "assets": ["assets/brand-mark.svg", "assets/preview.svg"]
+}

@@ -1,0 +1,39 @@
+{
+  "registryVersion": "1.0.0",
+  "engineVersion": "3.0.0",
+  "generatedAt": "deterministic",
+  "themes": [
+    {
+      "id": "learning-site-dark",
+      "name": "Learning Site Dark",
+      "version": "1.0.0",
+      "engine": ">=3.0.0 <4.0.0",
+      "manifest": "themes/dark/manifest.json",
+      "theme": "themes/dark/theme.json",
+      "stylesheet": "themes/dark/styles/theme.css",
+      "preview": {
+        "title": "Focused night reading",
+        "description": "A high-contrast dark theme designed for long study sessions.",
+        "image": "themes/dark/assets/preview.svg",
+        "background": "#111827",
+        "accent": "#67c6ff"
+      }
+    },
+    {
+      "id": "learning-site-default",
+      "name": "Learning Site Default",
+      "version": "1.0.0",
+      "engine": ">=3.0.0 <4.0.0",
+      "manifest": "themes/default/manifest.json",
+      "theme": "themes/default/theme.json",
+      "stylesheet": "themes/default/styles/theme.css",
+      "preview": {
+        "title": "Clear, editorial learning",
+        "description": "A bright, readable course theme with strong hierarchy.",
+        "image": "themes/default/assets/preview.svg",
+        "background": "#f7f8fa",
+        "accent": "#0b6bcb"
+      }
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+name: Validate and package themes
+
+on:
+  pull_request:
+  push:
+    tags: ["v*"]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20, cache: npm }
+      - run: npm ci
+      - run: npm run release:check
+      - run: npm run package:release
+      - uses: actions/upload-artifact@v4
+        with:
+          name: learning-site-theme-packages
+          path: |
+            registry.json
+            release/*.tgz

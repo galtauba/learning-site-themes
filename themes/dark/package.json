@@ -1,0 +1,9 @@
+{
+  "name": "@learning-site/theme-dark",
+  "version": "1.0.0",
+  "description": "Official Dark theme for Learning Site Engine",
+  "files": ["manifest.json", "theme.json", "styles", "assets", "templates"],
+  "keywords": ["learning-site", "theme"],
+  "license": "MIT",
+  "engines": { "node": ">=20" }
+}

@@ -1,0 +1,30 @@
+{
+  "manifestVersion": "1.0.0",
+  "theme": {
+    "id": "learning-site-default",
+    "name": "Learning Site Default",
+    "version": "1.0.0",
+    "tokens": {
+      "--background": "#f7f8fa",
+      "--text": "#172033",
+      "--surface": "#ffffff",
+      "--accent": "#0b6bcb",
+      "--muted": "#5d6678",
+      "--font": "Inter, Noto Sans Hebrew, Arial, sans-serif",
+      "--border": "#dce2ea",
+      "--heading": "#102a43",
+      "--code": "#f0f3f7",
+      "--reading-width": "72rem"
+    },
+    "assets": ["assets/brand-mark.svg", "assets/preview.svg"]
+  },
+  "engine": { "supportedVersions": ">=3.0.0 <4.0.0" },
+  "entrypoints": { "stylesheet": "styles/theme.css", "template": "templates/document.html" },
+  "components": ["document", "header", "brand", "navigation", "main", "article", "footer", "heading", "paragraph", "link", "image", "list", "strong", "blockquote", "table", "inline-code", "code-block", "horizontal-rule"],
+  "settings": [
+    { "key": "accent-color", "label": "Accent color", "type": "color", "token": "--accent", "default": "#0b6bcb" },
+    { "key": "body-font", "label": "Body font", "type": "font", "token": "--font", "default": "Inter, Noto Sans Hebrew, Arial, sans-serif" },
+    { "key": "reading-width", "label": "Reading width", "type": "select", "token": "--reading-width", "default": "72rem", "options": [{ "label": "Comfortable", "value": "72rem" }, { "label": "Compact", "value": "62rem" }, { "label": "Wide", "value": "82rem" }] }
+  ],
+  "preview": { "title": "Clear, editorial learning", "description": "A bright, readable course theme with strong hierarchy.", "image": "assets/preview.svg", "background": "#f7f8fa", "accent": "#0b6bcb" }
+}
