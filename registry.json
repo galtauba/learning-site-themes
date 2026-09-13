@@ -1,13 +1,13 @@
 {
   "registryVersion": "1.0.0",
-  "engineVersion": "3.0.0",
+  "engineVersion": "4.0.0",
   "generatedAt": "deterministic",
   "themes": [
     {
       "id": "learning-site-dark",
       "name": "Learning Site Dark",
       "version": "1.0.0",
-      "engine": ">=3.0.0 <4.0.0",
+      "engine": ">=4.0.0 <5.0.0",
       "manifest": "themes/dark/manifest.json",
       "theme": "themes/dark/theme.json",
       "stylesheet": "themes/dark/styles/theme.css",
@@ -23,7 +23,7 @@
       "id": "learning-site-default",
       "name": "Learning Site Default",
       "version": "1.0.0",
-      "engine": ">=3.0.0 <4.0.0",
+      "engine": ">=4.0.0 <5.0.0",
       "manifest": "themes/default/manifest.json",
       "theme": "themes/default/theme.json",
       "stylesheet": "themes/default/styles/theme.css",

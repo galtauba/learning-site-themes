@@ -1,9 +1,9 @@
 {
   "manifestVersion": "1.0.0",
   "theme": { "id": "learning-site-dark", "name": "Learning Site Dark", "version": "1.0.0", "tokens": { "--background": "#111827", "--text": "#e5e7eb", "--surface": "#182233", "--accent": "#67c6ff", "--muted": "#aab6c8", "--font": "Inter, Noto Sans Hebrew, Arial, sans-serif", "--border": "#34445d", "--heading": "#f7fbff", "--code": "#0c1422", "--reading-width": "72rem" }, "assets": ["assets/brand-mark.svg", "assets/preview.svg"] },
-  "engine": { "supportedVersions": ">=3.0.0 <4.0.0" },
+  "engine": { "supportedVersions": ">=4.0.0 <5.0.0" },
   "entrypoints": { "stylesheet": "styles/theme.css", "template": "templates/document.html" },
-  "components": ["document", "header", "brand", "navigation", "main", "article", "footer", "heading", "paragraph", "link", "image", "list", "strong", "blockquote", "table", "inline-code", "code-block", "horizontal-rule"],
+  "components": ["document", "header", "brand", "navigation", "main", "article", "footer", "heading", "paragraph", "link", "image", "list", "strong", "blockquote", "table", "inline-code", "code-block", "horizontal-rule", "homepage", "search", "table-of-contents", "callout", "mermaid", "theme-toggle"],
   "settings": [
     { "key": "accent-color", "label": "Accent color", "type": "color", "token": "--accent", "default": "#67c6ff" },
     { "key": "body-font", "label": "Body font", "type": "font", "token": "--font", "default": "Inter, Noto Sans Hebrew, Arial, sans-serif" },

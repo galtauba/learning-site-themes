@@ -18,9 +18,9 @@
     },
     "assets": ["assets/brand-mark.svg", "assets/preview.svg"]
   },
-  "engine": { "supportedVersions": ">=3.0.0 <4.0.0" },
+  "engine": { "supportedVersions": ">=4.0.0 <5.0.0" },
   "entrypoints": { "stylesheet": "styles/theme.css", "template": "templates/document.html" },
-  "components": ["document", "header", "brand", "navigation", "main", "article", "footer", "heading", "paragraph", "link", "image", "list", "strong", "blockquote", "table", "inline-code", "code-block", "horizontal-rule"],
+  "components": ["document", "header", "brand", "navigation", "main", "article", "footer", "heading", "paragraph", "link", "image", "list", "strong", "blockquote", "table", "inline-code", "code-block", "horizontal-rule", "homepage", "search", "table-of-contents", "callout", "mermaid", "theme-toggle"],
   "settings": [
     { "key": "accent-color", "label": "Accent color", "type": "color", "token": "--accent", "default": "#0b6bcb" },
     { "key": "body-font", "label": "Body font", "type": "font", "token": "--font", "default": "Inter, Noto Sans Hebrew, Arial, sans-serif" },

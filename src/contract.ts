@@ -2,11 +2,11 @@ import { readFile, readdir, stat } from "node:fs/promises";
 import { basename, dirname, join, relative } from "node:path";
 import { fileURLToPath } from "node:url";
 
-export const ENGINE_VERSION = "3.0.0";
+export const ENGINE_VERSION = "4.0.0";
 export const REQUIRED_COMPONENTS = [
   "document", "header", "brand", "navigation", "main", "article", "footer",
   "heading", "paragraph", "link", "image", "list", "strong", "blockquote", "table",
-  "inline-code", "code-block", "horizontal-rule"
+  "inline-code", "code-block", "horizontal-rule", "homepage", "search", "table-of-contents", "callout", "mermaid", "theme-toggle"
 ] as const;
 export const ALLOWED_ASSET_EXTENSIONS = new Set([".svg", ".png", ".jpg", ".jpeg", ".webp", ".woff2"]);
 export type ThemeSetting = { key: string; label: string; type: "color" | "font" | "select"; token: string; default: string; options?: { label: string; value: string }[] };
